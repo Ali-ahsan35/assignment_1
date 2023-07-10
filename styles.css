@@ -102,3 +102,42 @@
     font-weight: 400;
     margin-bottom: 50px;
 }
+
+.latest-deals {
+    width: 1440px;
+    height: 449px;
+    background-image: url("Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px;
+}
+
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+    padding-top: 40px;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+#email {
+    width: 700px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 20px;
+    padding: 2px;
+    display: inline;
+}
+.subs{
+    margin-top: 90px;
+}
