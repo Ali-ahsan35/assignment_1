@@ -34,7 +34,7 @@
 
 .btn {
     border-radius: 8px;
-    background: #E55473;
+    background-color: #E55473;
     padding: 20px 43px;
     border: none;
     color: #FFF;
@@ -42,10 +42,48 @@
     font-weight: 700px;
 }
 
+.btn:hover {
+    cursor: pointer;
+    background-color: #b9022a;
+}
+
 .header-img {
     margin-top: 20px;
 }
 
+.flower-bg {
+    display: flex;
+    /* align-items: center; */
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding-right: 20px;
+}
+.bg2{
+   background-color:rgba(5, 151, 160, 0.15); 
+}
+.bg3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px;
+    
+}
+
+.flower-fig{
+    display: flex;
+    justify-content: space-around;
+}
+.single-flower1{
+    
+    /* object-position: bottom 0; */
+    padding: 67px 5px 0px 5px;
+}
 .delivery-section-container {
     margin: 80px;
 }
@@ -61,7 +99,7 @@
     align-items: center;
 }
 
-.icon{
+.icon {
     margin-left: 45px;
 }
 
@@ -95,6 +133,7 @@
     background: rgba(229, 84, 115, 0.05)
 }
 
+
 .hot-deal-description {
     width: 594px;
     padding: 20px 0px;
@@ -104,6 +143,7 @@
     font-size: 18px;
     font-weight: 400;
 }
+
 
 .insta-img {
     display: flex;
