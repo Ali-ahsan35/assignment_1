@@ -60,30 +60,51 @@
     background-color: rgba(167, 33, 98, 0.15);
     padding-right: 20px;
 }
-.bg2{
-   background-color:rgba(5, 151, 160, 0.15); 
-}
-.bg3{
-    background-color: rgba(71, 125, 17, 0.15);
+
+.bg1 {
+    background-image: url(pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: bottom;
 }
 
-.featured-flower{
+.bg2 {
+    background-image: url('pngwing\ 5.png');
+    background-color: rgba(5, 151, 160, 0.15);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.bg3 {
+    background-image: url(pngwing\ 7.png);
+    background-color: rgba(71, 125, 17, 0.15);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.featured-flower {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin: 30px;
-    
+
 }
 
-.flower-fig{
+.flower-fig {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 420px;
 }
-.single-flower1{
-    
-    /* object-position: bottom 0; */
-    padding: 67px 5px 0px 5px;
+
+.img-fig {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
+
 .delivery-section-container {
     margin: 80px;
 }
